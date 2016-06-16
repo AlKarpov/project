@@ -27,9 +27,9 @@ public class Database
         try
         {
             List<ServerAddress> seeds = new ArrayList<ServerAddress>();
-            seeds.add(new ServerAddress("localhost", 27017));
-            seeds.add(new ServerAddress("localhost", 27018));
-            seeds.add(new ServerAddress("localhost", 27019));
+            seeds.add(new ServerAddress("Kalex", 27001));
+            seeds.add(new ServerAddress("Kalex", 27002));
+            seeds.add(new ServerAddress("Kalex", 27003));
  
             mongoClient = new MongoClient(seeds);
         
@@ -65,9 +65,9 @@ public class Database
         try
         {
             List<ServerAddress> seeds = new ArrayList<ServerAddress>();
-            seeds.add(new ServerAddress("localhost", 27017));
-            seeds.add(new ServerAddress("localhost", 27018));
-            seeds.add(new ServerAddress("localhost", 27019));
+            seeds.add(new ServerAddress("Kalex", 27001));
+            seeds.add(new ServerAddress("Kalex", 27002));
+            seeds.add(new ServerAddress("Kalex", 27003));
  
             mongoClient = new MongoClient(seeds);            
             String b = ""+a;
@@ -96,9 +96,9 @@ public class Database
         try
         {
             List<ServerAddress> seeds = new ArrayList<ServerAddress>();
-            seeds.add(new ServerAddress("localhost", 27017));
-            seeds.add(new ServerAddress("localhost", 27018));
-            seeds.add(new ServerAddress("localhost", 27019));
+            seeds.add(new ServerAddress("Kalex", 27001));
+            seeds.add(new ServerAddress("Kalex", 27002));
+            seeds.add(new ServerAddress("Kalex", 27003));
  
             mongoClient = new MongoClient(seeds);
         
@@ -133,9 +133,9 @@ public class Database
         try
         {
             List<ServerAddress> seeds = new ArrayList<ServerAddress>();
-            seeds.add(new ServerAddress("localhost", 27017));
-            seeds.add(new ServerAddress("localhost", 27018));
-            seeds.add(new ServerAddress("localhost", 27019));
+            seeds.add(new ServerAddress("Kalex", 27001));
+            seeds.add(new ServerAddress("Kalex", 27002));
+            seeds.add(new ServerAddress("Kalex", 27003));
  
             mongoClient = new MongoClient(seeds);
         
